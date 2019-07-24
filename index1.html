@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+<body>
+	
+<ul id="slide-out" class="sidenav">
+     <li><div class="user-view">
+      <a href="#user"><img class="circle" src="C:\Users\shriram\Desktop\Punnu\sa4.jpg"></a>
+      <a href="#dashboard"><span class="black-text email"><b>DASHBOARD</b></span></a>
+    </div></li>
+    <li><a href="#!">Dashboard</a></li>
+    <li><a href="#!">Teams</a></li>
+   
+    <li><a href="#!">Messages</a></li>
+	<li><a href="#!">Forums</a></li>
+    <li><a href="#!"><button type="button">Add new message</button></a></li>
+ </ul>
+ 
+<div class="mobile_nav"> 
+   <div><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></div>
+   <div><section class="in_mobile"><h5>Your teams<br></h5></section></div>
+</div>
+
+<div class="row">
+<div class=" col s10 offset-s1 card_container ">
+
+<nav>
+    		<div class="nav-wrapper ">
+     		  <a href="#" class="brand-logo black-text">Dashboard</a>
+     		  <div class="list "> <ul id="nav-mobile" class="left hide-on-med-and-down">
+       		 	<li><a href="#" class="black-text">Dashboard</a></li>
+       		 	<li class="active"><a href="#">Team</a></li>
+        		<li><a href="#" class="black-text">Message</a></li>
+			<li><a href="#" class="black-text">Forums</a></li>
+     		 	</ul></div>
+			<ul class="right hide-on-med-and-down">
+			<li><button type="button">Add new message</button></li>
+			<li><div class="profile"><img src="C:\Users\shriram\Desktop\Punnu\sa4.jpg" class="circle responsive-img"></div></li>
+      			</ul>
+  		  </div>
+	</nav>
+
+	<section class="in_laptop"><h5>Your teams<br></h5></section>	
+	<div class="main_card_container">
+            <div class="card ">
+                 	
+		<div class="card-content black-text">
+                   	
+			<h6><b>Design</b></h6>
+		
+			<div class="employee">
+			<b>Employees</b></div>
+			
+			<div class="employee_number">
+			<b>12</b></div>
+			
+			<div class="side_by_side">
+				<div class="Active">
+				<b>Active<br><p>10</p></b></div>
+				<div class="Messages">
+				<b>Messages<br><p>94</p></b></div>
+			</div>
+			
+			<div class="Button"><button type="button">Go to this team</button></div>
+			
+		</div>
+			
+	</div>
+
+
+
+<div class="card ">
+                 	
+		<div class="card-content black-text">
+                   	
+			<h6><b>Developement</b></h6>
+		
+			<div class="employee">
+			<b>Employees</b></div>
+			
+			<div class="employee_number">
+			<b>24</b></div>
+			
+			<div class="side_by_side">
+				<div class="Active">
+				<b>Active<br><p>21</p></b></div>
+				<div class="Messages">
+				<b>Messages<br><p>597</p></b></div>
+			</div>
+			
+			<div class="Button"><button type="button">Go to this team</button></div>
+			
+		</div>
+			
+	</div>
+
+	
+
+<div class="card ">
+                 	
+		<div class="card-content black-text">
+                   	
+			<h6><b>Add team</b></h6>
+		
+			<div class="icon"><i class="material-icons md-100">add_circle_outline</i></div>
+			
+			<div class="Button"><button type="button">Add a new team</button></div>
+			
+		</div>
+			
+	</div>
+
+
+	</div>
+</div>
+</div>
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+ <script type="text/javascript" >
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+  });
+
+  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+  // var collapsibleElem = document.querySelector('.collapsible');
+  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        </script>
+    </body>
+  </html>
