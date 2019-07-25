@@ -18,8 +18,8 @@ img {	height:30px;
 h6{ 	margin:0;
    	 padding:5px;}
 .card{ 
-	width:235px;
-	height:350px;
+	width:300px;
+	height:450px;
        }
 .mobile_nav{
 	display:flex;
@@ -29,53 +29,58 @@ h6{ 	margin:0;
 .employee{text-align:center;
 	color:#d8d8d8;
 	position:absolute;
-	top:80px;
+	top:100px;
 	left:25%;
 	right:25%;
+font-size:20px;
 	}
 .employee_number{
 	text-align:center;
 	margin:0;
-	font-size:70px;
+	font-size:90px;
 	color:#2974FA;
 	position:absolute;
-	top:90px;
+	top:110px;
 	left:25%;
 	right:25%;
 	bottom:0px;
 	}
 .Active{text-align:center;
-	padding:10px;
+	padding:15px;
 	color:#d8d8d8;
+font-size:15px;
 	}
 .Messages{	text-align:center;
-		padding:10px;
+		padding:15px;
 		color:#d8d8d8;
+font-size:15px;
 	}
 button[type=button]{	background-color:#2974fa;
 			border:none;
-			border-radius: 3px;
-			width:190px;
-			height:40px;
+			border-radius: 8px;
+			width:250px;
+			height:50px;
 			color:white;
 			box-sizing:border-box;
 			font-size:12px;
 			padding:10px;
 
+
 			}
+
 .in_laptop{	display:none;}
 nav{		display: none;}
 .email{		padding:10px;}
 .side_by_side{ display:flex; 
 		justify-content: center;
 		position:absolute;
-		top:200px;
+		top:250px;
 		left:25%;
 		right:25%;
 		background-color:white;
 		}
 .Button{	position:absolute;
-		top:290px;
+		top:380px;
 		text-align:center;
 		}
 p{	font-size:28px;}
@@ -83,9 +88,9 @@ p{	font-size:28px;}
 i{	color:#d8d8d8;
 	font-size:500px;
 	}
-.material-icons.md-100 { font-size: 120px;
+.material-icons.md-100 { font-size: 160px;
 			position:absolute;
-			top:80px;
+			top:100px;
 			right:10%;
 			color:#d8d8d8; 
 			}
@@ -103,17 +108,17 @@ i{	color:#d8d8d8;
 			flex-direction:row;
 			justify-content:center; 
 			 align-items: center;}
-.card{ 	width:235px;
-	height:350px;
-	margin:20px;
+.card{ 	width:300px;
+	height:450px;
+	margin:30px;
 	box-shadow:none;
        }
 .card_container{background-color:#F5F5F5;
-		height:600px;
+		
 		width:90%;
 		position:absolute;
-		top:10%;
-		bottom:25%;
+		top:0;
+		bottom:0;
                  }
 div.sidenav_trig{ display:none;}
 .sidenav-trigger{ display:none;}
@@ -125,14 +130,22 @@ nav{	display: block;
 	background-color:white;
 	}
 .nav-wrapper{color:black;}
-.responsive-img{height:75px;
-		width:75px;
-		margin-right:10px;}
-.list{	margin-left:200px;}
-.brand-logo{	margin-left:40px;}
+.responsive-img{height:70px;
+		width:70px;
+		margin-right:20px;}
+.list{	margin-left:240px;}
+li.list1{	margin:0px 20px;}
+.brand-logo{	margin-left:50px;}
+.navbutton{margin-right:35px;
+		}
+#but1{	height:35px;
+	width:200px;}
+button[type=button].navbutton{height:10px;}
 li.active a{    color:#2974fa;
 		background-color:#f5f5f5;  }
 .in_laptop{	display: block;
-		margin-left:40px;}
+		margin-left:250px;
+		margin-top:30px;
+		margin-bottom:0;}
 .in_mobile{	display:none;}
 }
